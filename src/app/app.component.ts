@@ -16,14 +16,6 @@ export class AppComponent {
   private currentAccount: string = '';
 
   constructor() {
-    // debugger
-    // this.web3 = new Web3("http://localhost:7545");
-    if (typeof window.ethereum !== 'undefined') {
-      console.log('MetaMask is installed!');
-      // Use Mist/MetaMask's provider
-    }else{
-      console.log('MetaMask is not installed!');
-    }
   }
 
   connect(){

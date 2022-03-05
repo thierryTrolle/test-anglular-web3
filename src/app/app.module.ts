@@ -49,6 +49,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import {OverlayModule} from '@angular/cdk/overlay';
+import { DialogSimpleComponent } from './dialog-simple/dialog-simple.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import {OverlayModule} from '@angular/cdk/overlay';
     HomeComponent,
     Web3appComponent,
     DownloadPageComponent,
+    DialogSimpleComponent,
   ],
   imports: [
     BrowserModule,
